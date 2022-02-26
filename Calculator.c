@@ -70,7 +70,7 @@ void main()
     printf("\n\nDo yo want to calculate again(Enter y for yes and n for no):");
     scanf("%c",&choice);
     }while(choice=='y');
-
+    printf("*------------------Thanks for using this calculator----------------*");
 }
 int fact(int x)
 {
