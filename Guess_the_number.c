@@ -12,7 +12,7 @@ int main()
     number=rand()%100 + 1;
     do
     {
-        printf("\nGuess the number between 1 and 100:");
+        printf("\nGuess the number between 1 and 100):");
         scanf("%d",&gnumber);
         if(gnumber>number)
         {
